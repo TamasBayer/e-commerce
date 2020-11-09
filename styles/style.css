@@ -81,6 +81,52 @@ header ul li a {
   color: black;
 }
 
+#categories-h1 {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+#categories-h1 span {
+  background: white;
+  padding: 0 10px;
+}
+
+.categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.categories .category {
+  width: 240px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.categories .category img {
+  width: 240px;
+  height: 140px;
+}
+
+.categories .category h2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 body {
   padding: 0 20% 0 20%;
   margin: 0;

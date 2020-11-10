@@ -279,17 +279,10 @@ header ul li a {
 
 footer {
   margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  vertical-align: top;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: #292828;
   color: white;
 }
 
@@ -298,15 +291,15 @@ footer p {
   margin-right: auto;
 }
 
-footer a {
-  font-size: 30px;
-  color: #2c2a2a;
+footer .footer-links a {
+  font-size: 25px;
+  color: #4e4c4c;
   margin: 0px 5px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
-footer a:hover {
+footer .footer-links a:hover {
   color: white;
 }
 

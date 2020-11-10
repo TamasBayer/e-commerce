@@ -1,11 +1,9 @@
 footer {
     margin-top: 100px;
-    display: flex;
-    vertical-align: top;
-    justify-content: center;
-    align-items: center;
-
-    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: rgb(41, 40, 40);
     color: white;
 
     p {
@@ -13,14 +11,19 @@ footer {
         margin-right: auto;
     }
 
-    a {
-        font-size: 30px;
-        color: rgb(44, 42, 42);
-        margin: 0px 5px;
+    .footer-links {
+        
+        a {
+            font-size: 25px;
+            color: rgb(78, 76, 76);
+            margin: 0px 5px;
+    
+            transition: 0.5s ease;
+            &:hover {
+                color: white;
+            }
+    }
 
-        transition: 0.5s ease;
-        &:hover {
-            color: white;
-        }
+    
     }
 }

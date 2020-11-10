@@ -139,15 +139,30 @@
     #service1 {
         background: url(../img/service1.jpg) no-repeat center
         center/cover;
+
+        &:hover {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/service1.jpg) no-repeat center
+            center/cover;        
+        }
     }
 
     #service2 {
         background: url(../img/service2.jpg) no-repeat center
         center/cover;
+
+        &:hover {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/service2.jpg) no-repeat center
+            center/cover;
+        }
     }
 
     #service3 {
         background: url(../img/service3.jpg) no-repeat center
         center/cover;
+
+        &:hover {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/service3.jpg) no-repeat center
+            center/cover;
+        }
     }
 }

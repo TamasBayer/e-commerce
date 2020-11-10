@@ -81,6 +81,7 @@ header ul li a {
   color: black;
 }
 
+/* ===== CATEGORIES ===== */
 #categories-h1 {
   font-size: 25px;
   text-align: center;
@@ -96,6 +97,7 @@ header ul li a {
 }
 
 .categories {
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +108,6 @@ header ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
 }
 
 .categories .category {
@@ -127,8 +128,45 @@ header ul li a {
   font-weight: lighter;
 }
 
+/* ===== BEST SELLERS ===== */
+#best-sellers-h1 {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+#best-sellers-h1 span {
+  background: white;
+  padding: 0 10px;
+}
+
+.best-sellers {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.best-sellers img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   padding: 0 20% 0 20%;
   margin: 0;
+  font-family: 'Markazi Text', serif;
+  letter-spacing: 3px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@ header {
   margin-bottom: 50px;
   text-align: center;
   display: block;
+  padding: 0 20% 0 20%;
 }
 
 header h1 {
@@ -30,6 +31,11 @@ header ul li a {
   text-align: center;
   margin: 23px 30px;
   text-decoration: none;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  padding: 0 20% 0 20%;
 }
 
 /* ===== HOME ===== */
@@ -110,6 +116,7 @@ header ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 20% 0 20%;
 }
 
 .categories .category {
@@ -157,6 +164,7 @@ header ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 20% 0 20%;
 }
 
 .best-sellers .best-seller {
@@ -192,6 +200,7 @@ header ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 20% 0 20%;
 }
 
 .services div {
@@ -302,7 +311,6 @@ footer a:hover {
 }
 
 body {
-  padding: 0 20% 0 20%;
   margin: 0;
   font-family: 'Markazi Text', serif;
   letter-spacing: 3px;

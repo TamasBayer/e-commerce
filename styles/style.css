@@ -159,13 +159,24 @@ header ul li a {
           align-items: center;
 }
 
-.best-sellers img {
+.best-sellers div {
+  width: 250px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.best-sellers div img {
   width: 250px;
 }
 
-.best-sellers a {
-  margin-left: auto;
-  margin-right: auto;
+.best-sellers div h2 {
+  font-size: 20px;
+}
+
+.best-sellers div p {
+  font-size: 18px;
 }
 
 /* ===== SERVICES ===== */

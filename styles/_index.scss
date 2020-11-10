@@ -105,13 +105,26 @@
 .best-sellers {
     @include flex();
 
-    img {
+    
+    div {
         width: 250px;
-    }
-
-    a {
+        height: 400px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
+
+        img {
+            width: 250px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px
+        }
+    
     }
 }
 

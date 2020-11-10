@@ -46,6 +46,7 @@ header ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -275,6 +276,49 @@ header ul li a {
 .services #service3:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/service3.jpg) no-repeat center center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/service3.jpg) no-repeat center center/cover;
+}
+
+@media (min-width: 1350px) and (max-width: 1800px) {
+  .container {
+    padding: 0 10% 0 10%;
+  }
+  .services, .categories, .best-sellers {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media (min-width: 1010px) and (max-width: 1350px) {
+  .container {
+    padding: 0;
+  }
+  .services, .categories, .best-sellers {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .container {
+    padding: 0;
+  }
+  .services, .categories, .best-sellers {
+    padding: 0 10% 0 10%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services div {
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+  }
+  .home {
+    height: 100vh;
+  }
+  .home h1 {
+    font-size: 60px;
+  }
+  .home p {
+    font-size: 15px;
+  }
 }
 
 footer {

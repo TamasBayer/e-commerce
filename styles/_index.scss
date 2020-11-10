@@ -54,6 +54,7 @@
     color: white;
     height: 50vh;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -194,3 +195,54 @@
     }
 }
 
+
+@media(min-width: 1350px) and (max-width: 1800px) {
+    .container {
+        padding: 0 10% 0 10%;
+    }
+
+    .services, .categories, .best-sellers {
+        padding: 0 10% 0 10%;
+    } 
+}
+
+@media(min-width: 1010px) and (max-width: 1350px) {
+    .container {
+        padding: 0;
+    }
+
+    .services, .categories, .best-sellers {
+        padding: 0 10% 0 10%;
+    } 
+}
+
+@media(max-width: 1010px) {
+    .container {
+        padding: 0;
+    }
+
+    .services, .categories, .best-sellers {
+        padding: 0 10% 0 10%;
+        flex-wrap: wrap;
+    } 
+
+    .services {
+        div {
+            width: 250px;
+            height: 300px;
+            margin-top: 30px;
+        }
+    }
+    
+    .home {
+        height: 100vh;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}

@@ -159,6 +159,9 @@ header ul li a {
 
 .best-sellers img {
   width: 250px;
+}
+
+.best-sellers a {
   margin-left: auto;
   margin-right: auto;
 }

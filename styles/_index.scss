@@ -102,9 +102,12 @@
 
 .best-sellers {
     @include flex();
-    
+
     img {
         width: 250px;
+    }
+
+    a {
         margin-left: auto;
         margin-right: auto;
     }

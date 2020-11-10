@@ -217,7 +217,9 @@ header ul li a {
 
 .services div h1 {
   color: white;
+  padding: 1em 1em;
   text-shadow: 2px 2px 4px black;
+  text-align: center;
 }
 
 .services div a {

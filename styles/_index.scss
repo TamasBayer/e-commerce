@@ -31,6 +31,14 @@
     }
 }
 
+@mixin flex() {
+    margin-top: 100px;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ===== HOME ===== */
 
 .home {
@@ -65,11 +73,7 @@
 }
 
 .categories {
-    margin-top: 100px;
-    display: flex;
-    vertical-align: top;
-    justify-content: center;
-    align-items: center;
+    @include flex();
 
     .category {
         width: 240px;
@@ -97,15 +101,53 @@
 }
 
 .best-sellers {
-    margin-top: 100px;
-    display: flex;
-    vertical-align: top;
-    justify-content: center;
-    align-items: center;
+    @include flex();
     
     img {
         width: 250px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+/* ===== SERVICES ===== */
+
+.services {
+    @include flex();
+
+    div {
+        width: 350px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 4px;
+        
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        
+        a {
+            @include linkButtons();
+        }
+    }
+
+    #service1 {
+        background: url(../img/service1.jpg) no-repeat center
+        center/cover;
+    }
+
+    #service2 {
+        background: url(../img/service2.jpg) no-repeat center
+        center/cover;
+    }
+
+    #service3 {
+        background: url(../img/service3.jpg) no-repeat center
+        center/cover;
     }
 }

@@ -159,7 +159,7 @@ header ul li a {
           align-items: center;
 }
 
-.best-sellers div {
+.best-sellers .best-seller {
   width: 250px;
   height: 400px;
   margin-left: auto;
@@ -167,15 +167,15 @@ header ul li a {
   text-align: center;
 }
 
-.best-sellers div img {
+.best-sellers .best-seller img {
   width: 250px;
 }
 
-.best-sellers div h2 {
+.best-sellers .best-seller h2 {
   font-size: 20px;
 }
 
-.best-sellers div p {
+.best-sellers .best-seller p {
   font-size: 18px;
 }
 

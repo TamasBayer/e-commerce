@@ -33,6 +33,27 @@ header ul li a {
   text-decoration: none;
 }
 
+@media (max-width: 1060px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  header ul {
+    display: none;
+  }
+}
+
 /* ===== CONTAINER ===== */
 .container {
   padding: 0 20% 0 20%;
@@ -311,7 +332,7 @@ header ul li a {
     margin-top: 30px;
   }
   .home {
-    height: 100vh;
+    height: 80vh;
   }
   .home h1 {
     font-size: 60px;

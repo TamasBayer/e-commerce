@@ -36,3 +36,23 @@ header {
         }
     }
 }
+
+@media(max-width: 1060px) {
+    
+    header {
+        display: flex;
+        text-align: center;
+        vertical-align: top;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+        ul {
+            display: none;
+        }
+        h1 {
+           
+        }
+    }
+}

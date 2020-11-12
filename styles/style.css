@@ -444,6 +444,20 @@ footer .footer-links a:hover {
   width: 20%;
 }
 
+.columns-store .left-column-store div {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbd8d8;
+}
+
+.columns-store .left-column-store div h2 {
+  font-size: 30px;
+  border-bottom: 1px solid  black;
+}
+
+.columns-store .left-column-store .search {
+  border-bottom: none;
+}
+
 .columns-store .left-column-store .search input {
   outline: none;
   border: none;
@@ -466,9 +480,13 @@ footer .footer-links a:hover {
   color: black;
 }
 
+.columns-store .left-column-store .category p {
+  font-size: 20px;
+}
+
 .columns-store .right-column-store {
   float: right;
-  width: 80%;
+  width: 75%;
 }
 
 .columns-store .right-column-store .item-store {

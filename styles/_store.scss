@@ -6,7 +6,19 @@
         float: left;
         width: 20%;
 
+        div {
+            padding-bottom: 10px;
+            border-bottom: 1px solid  rgb(219, 216, 216);
+
+            h2 {
+                font-size: 30px;
+                border-bottom: 1px solid  black;
+            }
+        }
+        
         .search {
+            border-bottom: none;
+
 
             input {
                 outline:none;
@@ -30,11 +42,18 @@
                 }
             }
         }
+
+        .category {
+            
+            p {
+                font-size: 20px;
+            }
+        }
     }
 
     .right-column-store {
         float: right;
-        width: 80%;
+        width: 75%;
         
         .item-store {
             border: 1px solid rgb(219, 216, 216);

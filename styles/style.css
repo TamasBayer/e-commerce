@@ -1,27 +1,27 @@
 header {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   text-align: center;
   display: block;
   padding: 0 20% 0 20%;
 }
 
-header h1 {
+header img {
   float: left;
-  margin: 5px 0 0 5px;
+  height: 100px;
   padding: 0;
-  font-size: 50px;
 }
 
 header ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
+  height: 100px;
 }
 
 header ul li {
   float: right;
+  text-align: center;
+  vertical-align: middle;
 }
 
 header ul li a {
@@ -29,7 +29,7 @@ header ul li a {
   color: #1f1d1d;
   display: block;
   text-align: center;
-  margin: 23px 30px;
+  margin: 48px 30px;
   text-decoration: none;
 }
 

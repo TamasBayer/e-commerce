@@ -3,7 +3,7 @@ $lightGray:  rgb(219, 216, 216);
 
 .columns-store {
     margin-top: 100px;
-    padding: 0 20% 100vh 20%;
+    padding: 0 20% 0 20%;
 
     .left-column-store {
         float: left;
@@ -93,6 +93,7 @@ $lightGray:  rgb(219, 216, 216);
             padding: 10px;
             cursor: pointer;
             transition: 0.5s;
+            margin-bottom: 20px;
 
             h2 {
                 margin: 0px;

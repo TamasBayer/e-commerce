@@ -343,6 +343,7 @@ header ul li a {
 }
 
 footer {
+  clear: both;
   margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -436,7 +437,7 @@ footer .footer-links a:hover {
 
 .columns-store {
   margin-top: 100px;
-  padding: 0 20% 100vh 20%;
+  padding: 0 20% 0 20%;
 }
 
 .columns-store .left-column-store {
@@ -520,6 +521,7 @@ footer .footer-links a:hover {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin-bottom: 20px;
 }
 
 .columns-store .right-column-store .item-store h2 {

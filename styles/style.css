@@ -396,6 +396,7 @@ footer .footer-links a:hover {
 }
 
 .columns-item .right-column-item h1 {
+  margin: 0;
   font-size: 40px;
 }
 
@@ -431,6 +432,45 @@ footer .footer-links a:hover {
 
 .columns-item .right-column-item #to-cart-btn:hover {
   background: black;
+}
+
+.columns-store {
+  margin-top: 100px;
+  padding: 0 20% 100vh 20%;
+}
+
+.columns-store .left-column-store {
+  float: left;
+  width: 20%;
+}
+
+.columns-store .right-column-store {
+  float: right;
+  width: 80%;
+}
+
+.columns-store .right-column-store .item-store {
+  border: 1px solid #dbd8d8;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.columns-store .right-column-store .item-store h2 {
+  margin: 0px;
+}
+
+.columns-store .right-column-store .item-store:hover {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.columns-store .right-column-store .item-store .item-info-store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body {

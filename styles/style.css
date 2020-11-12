@@ -481,7 +481,15 @@ footer .footer-links a:hover {
 }
 
 .columns-store .left-column-store .category p {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.columns-store .left-column-store .brand input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.columns-store .left-column-store .brand label {
+  font-size: 18px;
 }
 
 .columns-store .right-column-store {

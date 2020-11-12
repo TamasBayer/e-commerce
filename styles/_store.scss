@@ -46,7 +46,18 @@
         .category {
             
             p {
-                font-size: 20px;
+                font-size: 22px;
+            }
+        }
+
+        .brand {
+
+            input[type="checkbox"] {
+                cursor: pointer;
+              }
+
+            label {
+                font-size: 18px;
             }
         }
     }

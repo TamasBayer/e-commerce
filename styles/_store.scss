@@ -1,3 +1,6 @@
+$lightGray:  rgb(219, 216, 216);
+
+
 .columns-store {
     margin-top: 100px;
     padding: 0 20% 100vh 20%;
@@ -8,7 +11,7 @@
 
         div {
             padding-bottom: 10px;
-            border-bottom: 1px solid  rgb(219, 216, 216);
+            border-bottom: 1px solid $lightGray;
 
             h2 {
                 font-size: 30px;
@@ -24,7 +27,7 @@
                 outline:none;
                 border: none;
                 padding-bottom: 4px;
-                border-bottom: 1px solid  rgb(219, 216, 216);
+                border-bottom: 1px solid  $lightGray;
             }
 
             button {
@@ -60,6 +63,25 @@
                 font-size: 18px;
             }
         }
+
+        .price {
+            .price-inputs {
+                border-bottom: none;
+                text-align: center;
+
+                input {
+                    border: none;
+                    outline:none;
+                    border-bottom: 2px solid $lightGray;
+
+                    transition: 0.5s;
+
+                    &:hover {
+                        border-color: black;
+                    }
+                }
+            }
+        }
     }
 
     .right-column-store {
@@ -67,7 +89,7 @@
         width: 75%;
         
         .item-store {
-            border: 1px solid rgb(219, 216, 216);
+            border: 1px solid $lightGray;
             padding: 10px;
             cursor: pointer;
             transition: 0.5s;

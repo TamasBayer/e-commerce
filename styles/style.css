@@ -492,6 +492,23 @@ footer .footer-links a:hover {
   font-size: 18px;
 }
 
+.columns-store .left-column-store .price .price-inputs {
+  border-bottom: none;
+  text-align: center;
+}
+
+.columns-store .left-column-store .price .price-inputs input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #dbd8d8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.columns-store .left-column-store .price .price-inputs input:hover {
+  border-color: black;
+}
+
 .columns-store .right-column-store {
   float: right;
   width: 75%;

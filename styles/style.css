@@ -369,8 +369,8 @@ footer .footer-links a:hover {
 }
 
 .columns-item {
-  margin-top: 150px;
-  padding: 0 20% 50% 20%;
+  margin-top: 100px;
+  padding: 0 20% 100vh 20%;
 }
 
 .columns-item .left-column-item {
@@ -391,6 +391,46 @@ footer .footer-links a:hover {
 .columns-item .right-column-item {
   float: right;
   width: 45%;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.columns-item .right-column-item h1 {
+  font-size: 40px;
+}
+
+.columns-item .right-column-item #item-price {
+  font-size: 30px;
+}
+
+.columns-item .right-column-item p {
+  font-size: 20px;
+}
+
+.columns-item .right-column-item #quantity {
+  border: none;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.columns-item .right-column-item #to-cart-btn {
+  background: #e00808;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  padding: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.columns-item .right-column-item #to-cart-btn:hover {
+  background: black;
 }
 
 body {

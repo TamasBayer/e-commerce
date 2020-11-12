@@ -444,6 +444,28 @@ footer .footer-links a:hover {
   width: 20%;
 }
 
+.columns-store .left-column-store .search input {
+  outline: none;
+  border: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #dbd8d8;
+}
+
+.columns-store .left-column-store .search button {
+  border: none;
+  background: black;
+  color: white;
+  padding: 4px 10px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.columns-store .left-column-store .search button:hover {
+  background: white;
+  color: black;
+}
+
 .columns-store .right-column-store {
   float: right;
   width: 80%;

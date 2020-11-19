@@ -6,6 +6,10 @@
 @import "./services";
 @import "./contact";
 
+html,body{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     font-family: 'Markazi Text', serif;

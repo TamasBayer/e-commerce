@@ -608,7 +608,7 @@ footer .footer-links a:hover {
   text-align: center;
   background: url(../img/map.jpg) no-repeat center center/cover;
   padding: 160px 0;
-  margin: 100px 0;
+  margin: 20vh 0;
 }
 
 .contact .contact-details {
@@ -620,13 +620,17 @@ footer .footer-links a:hover {
   color: white;
   font-size: 30px;
   text-shadow: 0px 0px 20px black, 0px 0px 10px black, 0px 0px 5px black;
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .contact .contact-details i {
   margin-top: 10px;
   color: white;
   font-size: 30px;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 body {

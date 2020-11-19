@@ -138,7 +138,7 @@
 
 /* ===== SERVICES ===== */
 
-.services {
+.services-index {
     @include flex();
 
     div {
@@ -201,7 +201,7 @@
         padding: 0 10% 0 10%;
     }
 
-    .services, .categories, .best-sellers {
+    .services-index, .categories, .best-sellers {
         padding: 0 10% 0 10%;
     } 
 }
@@ -211,7 +211,7 @@
         padding: 0;
     }
 
-    .services, .categories, .best-sellers {
+    .services-index, .categories, .best-sellers {
         padding: 0 10% 0 10%;
     } 
 }
@@ -221,12 +221,12 @@
         padding: 0;
     }
 
-    .services, .categories, .best-sellers {
+    .services-index, .categories, .best-sellers {
         padding: 0 10% 0 10%;
         flex-wrap: wrap;
     } 
 
-    .services {
+    .services-index {
         div {
             width: 250px;
             height: 300px;

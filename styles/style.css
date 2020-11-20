@@ -559,7 +559,10 @@ footer .footer-links a:hover {
   display: -ms-flexbox;
   display: flex;
   vertical-align: top;
-  margin: 100px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20vh 0;
   padding: 0 20%;
 }
 
@@ -599,6 +602,67 @@ footer .footer-links a:hover {
   font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+@media (min-width: 1280px) and (max-width: 1700px) {
+  .services {
+    padding: 0 10%;
+  }
+}
+
+@media (min-width: 1145px) and (max-width: 1280px) {
+  .services {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 1145px) {
+  .services {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1045px) {
+  .services {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services .service {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 525px) {
+  .service {
+    width: 400px;
+    height: 700px;
+  }
+  .service img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 410px) {
+  .service {
+    width: 300px;
+    height: 700px;
+  }
+  .service img {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 300px) {
+  .service {
+    width: 260px;
+    height: 700px;
+  }
+  .service img {
+    width: 260px;
+    height: 125px;
+  }
 }
 
 .contact {

@@ -34,17 +34,10 @@
         </div>
         <div class="right-column-item">
             <div class="about-item">
-            <h1>Heinrich Th Heberlein Jr Violin, Germany, 1934</h1>
-            <p id="item-price">$10.000</p>
-            <p>
-                Paul Knorr, born in 1882, studied violinmaking with Dolling. 
-                Working in Berlin and Breslau, he established himself in the
-                Markneukirchen workshop of F & R Enders in 1918. 
-                Starting in 1921, Knorr became and independent maker. 
-                Attaining mastery of his craft, Knorr was highly respected 
-                for wood and material selection. He was also adept at 
-                following the patterns, approach, and varnishing 
-                techniques of the Cremonese masters. 
+            <h1 id="item-name"></h1>
+            <p id="item-price"></p>
+            <p id="item-text">
+                 
             </p>
             <input type="number" id="quantity" value="0" min="0" max="10"/> 
             <button id="to-cart-btn">ADD TO CART</button>
@@ -63,8 +56,15 @@
 
 
     <script>
+        var itemId = window.location.hash.substring(1);
+
         var bigImg = document.getElementById("big-img");
         var smallImg = document.getElementsByClassName("small-img");
+        var itemName = document.getElementById("item-name");
+        var itemPrice = document.getElementById("item-price");
+        var itemText = document.getElementById("item-text");
+
+        /*===== CHANGE BIG IMG ON CLICK =====*/
 
         smallImg[0].onclick = function() {
             bigImg.src = smallImg[0].src;
@@ -75,6 +75,63 @@
         smallImg[2].onclick = function() {
             bigImg.src = smallImg[2].src;
         }
+
+        /*===== CHANGE INFOS =====*/
+
+        bigImg.src = `./img/Items/item${itemId}-1.jpg`;
+        smallImg[0].src = `./img/Items/item${itemId}-1.jpg`;
+        smallImg[1].src = `./img/Items/item${itemId}-2.jpg`;
+        smallImg[2].src = `./img/Items/item${itemId}-3.jpg`;
+        
+        console.log(itemId);
+
+        switch(itemId) {
+        case "1":
+            itemName.innerHTML = "Heinrich Th Heberlein Jr Violin, Germany, 1934";
+            itemPrice.innerHTML = "$10.000";
+            itemText.innerHTML = 
+                `Paul Knorr, born in 1882, studied violinmaking with Dolling. 
+                Working in Berlin and Breslau, he established himself in the
+                Markneukirchen workshop of F & R Enders in 1918. 
+                Starting in 1921, Knorr became and independent maker. 
+                Attaining mastery of his craft, Knorr was highly respected 
+                for wood and material selection. He was also adept at 
+                following the patterns, approach, and varnishing 
+                techniques of the Cremonese masters.`;
+            break;
+        case "2":
+            itemName.innerHTML = "Tetsuo Matsuda Violin, Barrington, IL 2002";
+            itemPrice.innerHTML = "$22.000";
+            itemText.innerHTML = 
+                `Tetsuo Matsuda completed his studies at the International 
+                Violinmaking School in Cremona Italy in 1981 before moving 
+                to Chicago and beginning his career at William Harris Lee in 1983. 
+                Matsuda has won silver medals at the Antonio Stradivari International 
+                Violin Makers Competition as well as gold medals at the Violin Society 
+                of America's International Competition.`;
+            break;
+        case "3":
+            itemName.innerHTML = "Masa Inokuchi Violin, Toronto, 2010";
+            itemPrice.innerHTML = "$15.000";
+            itemText.innerHTML = 
+                `Masa Inokuchi immigrated to Canada in 1968 and established his shop in 
+                Toronto. Using only the finest North American tonewood that has aged more 
+                than 25 years, Masa and son Miki have produced some of the most sought after 
+                contemporary violins and violin family instruments. Perfectly balanced, this 
+                example of the master's work provides a smooth, crisp tone that both the 
+                listener and the player should find delightful.`;
+            break;
+        case "4":
+            itemName.innerHTML = "Violin labelled E.H. Roth, Germany, c.1924";
+            itemPrice.innerHTML = "$9.000";
+            itemText.innerHTML = 
+                `Bearing a facsimile Roth label of 1924, this German workshop violin is ideal 
+                for the chamber violinist or advancing student who is looking for clarity and 
+                a brighter upper register. A two piece back and very fine-width, straight grained 
+                spruce are displayed in a lustrous orange-brown varnish.`;
+            break;
+        
+}
 
     </script>
 </body>

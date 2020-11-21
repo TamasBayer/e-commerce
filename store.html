@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="right-column-store">
-            <div class="item-store">
+            <div class="item-store" id="1">
                 <h2>Heinrich Th Heberlein Jr Violin, Germany, 1934</h2>
                 <div class="item-info-store">
                     <div class="item-img">
@@ -78,11 +78,11 @@
                     </div>
                 </div>        
             </div>
-            <div class="item-store">
+            <div class="item-store" id="2">
                 <h2>Heinrich Th Heberlein Jr Violin, Germany, 1934</h2>
                 <div class="item-info-store">
                     <div class="item-img">
-                        <img src="./img/Items/item1-1.jpg">
+                        <img src="./img/Items/item2-1.jpg">
                     </div>
                     <div class="item-description">
                     <h3>About this item</h3>
@@ -100,11 +100,11 @@
                     </div>
                 </div>        
             </div>
-            <div class="item-store">
+            <div class="item-store" id="3">
                 <h2>Heinrich Th Heberlein Jr Violin, Germany, 1934</h2>
                 <div class="item-info-store">
                     <div class="item-img">
-                        <img src="./img/Items/item1-1.jpg">
+                        <img src="./img/Items/item3-1.jpg">
                     </div>
                     <div class="item-description">
                     <h3>About this item</h3>
@@ -122,11 +122,11 @@
                     </div>
                 </div>        
             </div>
-            <div class="item-store">
+            <div class="item-store" id="4">
                 <h2>Heinrich Th Heberlein Jr Violin, Germany, 1934</h2>
                 <div class="item-info-store">
                     <div class="item-img">
-                        <img src="./img/Items/item1-1.jpg">
+                        <img src="./img/Items/item4-1.jpg">
                     </div>
                     <div class="item-description">
                     <h3>About this item</h3>
@@ -154,5 +154,45 @@
             <a href=""><i class="fab fa-instagram-square"></i></a>
         </div>
     </footer>
+
+    <script>
+        /*===== LOADING THE CHOOSED ITEM IN ITEM PAGE =====*/
+
+        var item = document.getElementsByClassName("item-store");
+        var choosedItem = "";
+
+
+
+        item[0].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[1].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[2].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[3].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        function loadingItemPage() {
+
+            window.location.href = "./item.html" + '#' + choosedItem;
+        }
+
+    </script>
+
 </body>
 </html>

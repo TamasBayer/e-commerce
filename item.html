@@ -26,10 +26,10 @@
     <div class="columns-item">
         <div class="left-column-item">
             <div class="item-pictures">
-                <img src="./img/Items/test-big.jpg" id="big-img-test">
-                <img src="./img/Items/item1-1.jpg">
-                <img src="./img/Items/item1-2.jpg">
-                <img src="./img/Items/item1-3.jpg">       
+                <img src="./img/Items/test-big.jpg" id="big-img">
+                <img src="./img/Items/item1-1.jpg" class="small-img">
+                <img src="./img/Items/item1-2.jpg" class="small-img">
+                <img src="./img/Items/item1-3.jpg" class="small-img">       
             </div>
         </div>
         <div class="right-column-item">
@@ -60,5 +60,22 @@
             <a href=""><i class="fab fa-instagram-square"></i></a>
         </div>
     </footer>
+
+
+    <script>
+        var bigImg = document.getElementById("big-img");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function() {
+            bigImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function() {
+            bigImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function() {
+            bigImg.src = smallImg[2].src;
+        }
+
+    </script>
 </body>
 </html>

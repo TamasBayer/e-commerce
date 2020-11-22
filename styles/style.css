@@ -203,6 +203,7 @@ header #menu-icon {
 
 .best-sellers .best-seller h2 {
   font-size: 20px;
+  height: 90px;
 }
 
 .best-sellers .best-seller p {
@@ -299,37 +300,29 @@ header #menu-icon {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/service3.jpg) no-repeat center center/cover;
 }
 
-@media (min-width: 1350px) and (max-width: 1800px) {
-  .container {
-    padding: 0 10% 0 10%;
-  }
+@media (max-width: 1800px) {
   .services-index, .categories, .best-sellers {
     padding: 0 10% 0 10%;
   }
-}
-
-@media (min-width: 1010px) and (max-width: 1350px) {
-  .container {
-    padding: 0;
+  .categories .category {
+    width: 200px;
+    height: 220px;
   }
-  .services-index, .categories, .best-sellers {
-    padding: 0 10% 0 10%;
+  .categories .category img {
+    width: 200px;
+    height: 120px;
+  }
+  .services-index div {
+    width: 260px;
+    height: 360px;
   }
 }
 
 @media (max-width: 1010px) {
-  .container {
-    padding: 0;
-  }
   .services-index, .categories, .best-sellers {
     padding: 0 10% 0 10%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .services-index div {
-    width: 250px;
-    height: 300px;
-    margin-top: 30px;
   }
   .home {
     height: 80vh;
@@ -339,6 +332,55 @@ header #menu-icon {
   }
   .home p {
     font-size: 15px;
+  }
+  .categories .category {
+    width: 140px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .categories .category img {
+    width: 140px;
+    height: 80px;
+  }
+  .best-sellers .best-seller {
+    width: 150px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+  .best-sellers .best-seller img {
+    width: 150px;
+  }
+  .services-index div {
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .categories .category {
+    width: 120px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+  .categories .category img {
+    width: 120px;
+    height: 70px;
+  }
+  .categories .category h2 {
+    font-size: 15px;
+  }
+  .best-sellers .best-seller {
+    width: 120px;
+    height: 260px;
+    margin-bottom: 80px;
+  }
+  .best-sellers .best-seller img {
+    width: 120px;
+  }
+  .best-sellers .best-seller h2 {
+    font-size: 18px;
+    height: 120px;
   }
 }
 

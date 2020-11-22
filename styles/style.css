@@ -87,11 +87,6 @@ header #menu-icon {
   }
 }
 
-/* ===== CONTAINER ===== */
-.container {
-  padding: 0 20% 0 20%;
-}
-
 /* ===== HOME ===== */
 .home {
   background: url(../img/violin1.jpg) no-repeat center center/cover;
@@ -145,20 +140,6 @@ header #menu-icon {
 }
 
 /* ===== CATEGORIES ===== */
-#categories-h1 {
-  font-size: 25px;
-  text-align: center;
-  width: 100%;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-}
-
-#categories-h1 span {
-  background: white;
-  padding: 0 10px;
-}
-
 .categories {
   margin-top: 100px;
   display: -webkit-box;
@@ -193,20 +174,6 @@ header #menu-icon {
 }
 
 /* ===== BEST SELLERS ===== */
-#best-sellers-h1 {
-  font-size: 25px;
-  text-align: center;
-  width: 100%;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-}
-
-#best-sellers-h1 span {
-  background: white;
-  padding: 0 10px;
-}
-
 .best-sellers {
   margin-top: 100px;
   display: -webkit-box;
@@ -719,20 +686,6 @@ footer .footer-links a:hover {
   }
 }
 
-#services-h1 {
-  font-size: 25px;
-  text-align: center;
-  width: 100%;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-}
-
-#services-h1 span {
-  background: white;
-  padding: 0 10px;
-}
-
 .services {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -880,5 +833,24 @@ body {
   margin: 0;
   font-family: 'Markazi Text', serif;
   letter-spacing: 3px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  padding: 0 20% 0 20%;
+}
+
+.container .titles {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.container .titles span {
+  background: white;
+  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */

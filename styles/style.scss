@@ -15,3 +15,23 @@ body {
     font-family: 'Markazi Text', serif;
     letter-spacing: 3px;
 }
+
+/* ===== CONTAINER ===== */
+
+.container {
+    padding: 0 20% 0 20%;
+
+    .titles {
+        font-size: 25px;
+        text-align: center;
+        width: 100%; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+
+        span {
+            background: white;
+            padding: 0 10px;
+        }
+    }
+}

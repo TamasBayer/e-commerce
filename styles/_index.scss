@@ -17,20 +17,6 @@
     }
 }
 
-@mixin titles() {
-    font-size: 25px;
-    text-align: center;
-    width: 100%; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.1em;
-    margin: 10px 0 20px;
-
-    span {
-        background: white;
-        padding: 0 10px;
-    }
-}
-
 @mixin flex() {
     margin-top: 100px;
     display: flex;
@@ -40,11 +26,6 @@
     padding: 0 20% 0 20%;
 }
 
-/* ===== CONTAINER ===== */
-
-.container {
-    padding: 0 20% 0 20%;
-}
 
 /* ===== HOME ===== */
 
@@ -78,9 +59,6 @@
 
 /* ===== CATEGORIES ===== */
 
-#categories-h1 {
-    @include titles();
-}
 
 .categories {
     @include flex();
@@ -106,9 +84,6 @@
 
 /* ===== BEST SELLERS ===== */
 
-#best-sellers-h1 {
-    @include titles();
-}
 
 .best-sellers {
     @include flex();

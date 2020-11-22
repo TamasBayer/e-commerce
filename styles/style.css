@@ -640,6 +640,10 @@ footer .footer-links a:hover {
   margin-bottom: 20px;
 }
 
+.columns-store .right-column-store .item-store img {
+  width: 400px;
+}
+
 .columns-store .right-column-store .item-store h2 {
   margin: 0px;
 }
@@ -709,8 +713,14 @@ footer .footer-links a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  .right-column-store img {
+  .columns-store .right-column-store img {
     padding-top: 40px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 980px) {
+  .right-column-store img {
+    max-width: 300px;
   }
 }
 
@@ -725,8 +735,8 @@ footer .footer-links a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .right-column-store .item-info-store img {
-    width: 100%;
+  .right-column-store img {
+    max-width: 200px;
   }
 }
 

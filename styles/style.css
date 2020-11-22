@@ -629,6 +629,7 @@ footer .footer-links a:hover {
 .columns-store .right-column-store {
   float: right;
   width: 75%;
+  margin-bottom: 20vh;
 }
 
 .columns-store .right-column-store .item-store {
@@ -748,7 +749,7 @@ footer .footer-links a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20vh 0;
+  margin: 20vh 0 25vh 0;
   padding: 0 20%;
 }
 
@@ -858,13 +859,13 @@ footer .footer-links a:hover {
   text-align: center;
   background: url(../img/map.jpg) no-repeat center center/cover;
   padding: 160px 0;
-  margin: 10vh 0;
+  margin: 10vh 0 20vh 0;
 }
 
 .contact .contact-details {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 0;
-  margin-bottom: 180px;
+  margin-bottom: 140px;
 }
 
 .contact .contact-details h2 {

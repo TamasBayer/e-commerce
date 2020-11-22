@@ -47,11 +47,29 @@ header {
         vertical-align: middle;
         justify-content: center;
         align-items: center;
-        
         margin-top: 5px;
         margin-bottom: 5px;
         ul {
-            display: none;
+
+            position: absolute;   
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            padding-left: 0;
+            top: 90px;
+            background: rgba(255, 255, 255, 0.8);
+            padding-bottom: 50px;
+            z-index: 1;
+
+            li {
+                float: none;
+                margin: 0;
+
+                a {
+                    margin: 10px 0;
+                }
+            }
         }
 
         #menu-icon {

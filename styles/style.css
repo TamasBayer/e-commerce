@@ -54,7 +54,23 @@ header #menu-icon {
     margin-bottom: 5px;
   }
   header ul {
-    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    top: 90px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-bottom: 50px;
+    z-index: 1;
+  }
+  header ul li {
+    float: none;
+    margin: 0;
+  }
+  header ul li a {
+    margin: 10px 0;
   }
   header #menu-icon {
     display: inline;

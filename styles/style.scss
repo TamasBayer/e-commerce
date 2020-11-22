@@ -35,3 +35,21 @@ body {
         }
     }
 }
+
+@media(min-width: 1350px) and (max-width: 1800px) {
+    .container {
+        padding: 0 10% 0 10%;
+    }
+}
+
+@media(min-width: 1010px) and (max-width: 1350px) {
+    .container {
+        padding: 0;
+    }
+}
+
+@media(max-width: 1010px) {
+    .container {
+        padding: 0;
+    }
+}

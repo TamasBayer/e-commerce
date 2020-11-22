@@ -199,6 +199,7 @@ header #menu-icon {
 
 .best-sellers .best-seller img {
   width: 250px;
+  cursor: pointer;
 }
 
 .best-sellers .best-seller h2 {

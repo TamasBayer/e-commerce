@@ -58,23 +58,23 @@
         <h1 class="titles"><span>Best Sellers</span></h1>
     </div>
     <div class="best-sellers">
-            <div class="best-seller">
-                <a href=""><img src="./img/Items/item1-1.jpg"></a>
+            <div class="best-seller" id="1">
+                <img src="./img/Items/item1-1.jpg">
                 <h2>Heinrich Th Heberlein Jr Violin, Germany, 1934</h2>
                 <p>$10.000</p>
             </div>
-            <div class="best-seller">
-                <a href=""><img src="./img/Items/item2-1.jpg"></a>
+            <div class="best-seller" id="2">
+                <img src="./img/Items/item2-1.jpg">
                 <h2>Tetsuo Matsuda Violin, Barrington, IL 2002</h2>
                 <p>$22.000</p>
             </div>
-            <div class="best-seller">
-                <a href=""><img src="./img/Items/item3-1.jpg"></a>
+            <div class="best-seller" id="3">
+                <img src="./img/Items/item3-1.jpg">
                 <h2>Masa Inokuchi Violin, Toronto, 2010</h2>
                 <p>$15.000</p>
             </div>
-            <div class="best-seller">
-                <a href=""><img src="./img/Items/item4-1.jpg"></a>
+            <div class="best-seller" id="4">
+                <img src="./img/Items/item4-1.jpg">
                 <h2>Violin labelled E.H. Roth, Germany, c.1924</h2>
                 <p>$9.000</p>
             </div> 
@@ -103,5 +103,45 @@
     </footer>
 
     <script src="./menu.js"></script>
+
+    <script>
+        /*===== LOADING THE CHOOSED BEST SELLER IN ITEM PAGE =====*/
+
+        var item = document.getElementsByClassName("best-seller");
+        var choosedItem = "";
+
+
+
+        item[0].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[1].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[2].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        item[3].onclick = function() {
+            choosedItem = this.id;
+            loadingItemPage();
+            console.log(choosedItem);
+        }
+
+        function loadingItemPage() {
+
+            window.location.href = "./item.html" + '#' + choosedItem;
+        }
+
+    </script>
+
 </body>
 </html>

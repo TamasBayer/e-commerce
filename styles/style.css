@@ -166,6 +166,7 @@ header #menu-icon {
 .categories .category img {
   width: 240px;
   height: 140px;
+  border-radius: 4px;
 }
 
 .categories .category h2 {
